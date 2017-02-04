@@ -1,0 +1,33 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "sample project of react and typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --config config/webpack.config.js"
+  },
+  "author": "coder",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^7.0.4",
+    "@types/react": "^15.0.4",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "node-sass": "^4.3.0",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.1",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.2.0-dev.20170127",
+    "webpack": "^1.14.0",
+    "webpack-notifier": "^1.5.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
